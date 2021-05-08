@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">assignment 1</string>
+    <string name="add_new_favorite">Add new favorite</string>
+    <string name="search">Search</string>
+</resources>

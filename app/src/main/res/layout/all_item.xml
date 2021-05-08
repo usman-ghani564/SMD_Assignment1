@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_box"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tokyo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/all_city_name"
+        android:layout_toEndOf="@id/check_box"
+        android:paddingTop="7dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:45"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:paddingTop="7dp"
+        android:id="@+id/all_time"/>
+
+
+</RelativeLayout>
